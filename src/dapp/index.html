@@ -13,8 +13,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">FlightSurety</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     </nav>
@@ -24,7 +23,21 @@
         <div id="display-wrapper" class="top-20">
         </div>
         <div class="row top-20">
-            <label class="form">Flight</label> <input type="text" id="flight-number"> <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+            <label class="form">Flight</label> <input type="text" id="flight-number">
+            <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+            <btn class="btn btn-primary" id="buy-insurance">Buy Insurance</btn>
+            <btn class="btn btn-primary" id="register-flights">Register flights</btn>
+            <btn class="btn btn-primary" id="withdraw-dividends">Withdraw Dividends</btn>
+
+            <label for="cars">Choose a car:</label>
+
+            <select name="flights" id="availableFlights">
+                <option value="KLM456">Flight 1</option>
+                <option value="KLM945">Flight 2</option>
+                <option value="KLM456">Flight 3</option>
+                <option value="empty">more...</option>
+            </select>
+
         </div>
     </main>
 

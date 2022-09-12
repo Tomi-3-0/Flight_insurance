@@ -204,3 +204,6 @@ contract('Flight Surety Tests', async(accounts) => {
 
 
 });
+
+// REFERENCE
+//=> https://github.com/zeil156/FlightSurety

@@ -7,6 +7,11 @@
     },
     "repository": "https://github.com/techbubble/flightsurety",
     "license": "MIT",
+    "browser": {
+        "fs": false,
+        "path": false,
+        "os": false
+    },
     "scripts": {
         "test": "truffle test ./test/flightSurety.js",
         "dapp": "webpack-dev-server --mode development --config webpack.config.dapp.js",
@@ -20,8 +25,7 @@
         "@babel/plugin-proposal-class-properties": "^7.0.0-beta.46",
         "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.46",
         "@babel/preset-env": "^7.0.0-beta.46",
-        "truffle": "5.0.2",
-        "truffle-hdwallet-provider": "1.0.2",
+        "@truffle/hdwallet-provider": "^2.0.13",
         "babel-core": "6.26.3",
         "babel-loader": "8.0.5",
         "babel-polyfill": "6.26.0",
@@ -37,13 +41,12 @@
         "start-server-webpack-plugin": "2.2.5",
         "style-loader": "^0.23.1",
         "superstatic": "6.0.3",
+        "truffle": "^5.5.29",
         "web3": "^1.7.5",
         "webpack": "^4.35.2",
         "webpack-cli": "^3.3.6",
         "webpack-dev-server": "3.7.2",
         "webpack-node-externals": "1.7.2"
     },
-    "dependencies": {
-        "solc": "^0.4.24"
-    }
+    "dependencies": {}
 }
